@@ -1,0 +1,18 @@
+pkgbase = curx-git
+	pkgdesc = Simple CLI currency exchange program.
+	pkgver = r3.e448873
+	pkgrel = 1
+	url = https://github.com/HanSolo1000Falcon/curx
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = clang
+	makedepends = git
+	depends = curl
+	depends = cjson
+	provides = curx
+	conflicts = curx
+	source = curx-git::git+https://github.com/HanSolo1000Falcon/curx.git
+	sha256sums = SKIP
+
+pkgname = curx-git
